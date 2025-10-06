@@ -122,18 +122,4 @@ python episodic-memory/NLQ/VSLNet/main.py \
 
 This project successfully implements an end-to-end pipeline for augmenting video-language datasets. The effectiveness of the pre-training can be measured by observing the convergence speed and final validation metrics (e.g., R@1, IoU=0.5) during the fine-tuning stage. Training logs and TensorBoard events are generated to monitor performance. The primary outcome is the robust framework for synthetic data generation, which is modular and can be adapted for other models or datasets.
 
-## Future Work
 
--   **Experiment with Larger LLMs**: Using more powerful models like Llama 3 or GPT-4 could yield even higher-quality and more diverse queries.
--   **Advanced Prompting Techniques**: Exploring few-shot or chain-of-thought prompting to generate more complex and inferential questions.
--   **Quantitative Impact Analysis**: A rigorous comparison of the model's performance with and without pre-training on the official validation and test sets.
--   **Generalization**: Applying this data augmentation methodology to other video-language tasks, such as video captioning or visual dialog.
-
-## Acknowledgements
-
--   This project is built upon the official [Ego4D dataset and benchmark tools](https://github.com/EGO4D).
--   The baseline model implementation is from the official [VSLNet repository within the Ego4D Episodic Memory codebase](https://github.com/EGO4D/episodic-memory/tree/main/NLQ/VSLNet).
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

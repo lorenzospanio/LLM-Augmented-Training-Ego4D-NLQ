@@ -41,25 +41,6 @@ The end-to-end pipeline can be visualized as follows:
 The entire process is detailed in the Jupyter Notebook.
 **Ego4D CLI Setup:** You need to sign the Ego4D license and obtain your access keys from the [official website](https://ego4ddataset.com/). Configure the CLI with your keys.
 
-### Step 1: Download Official Data
-
-Use the Ego4D CLI to download the annotations and video features.
-
-### Step 2: Generate the Synthetic Dataset
-Follow the steps in the notebook under the section "Automatic Queries Generation using LLMs".
-
-### Step 3: Prepare Datasets for VSLNet
-
-The VSLNet codebase requires a pre-processing step to convert the JSON annotations and features into a format suitable for training.
-
-### Step 4: Pre-training on Synthetic Data
-
-Run the main training script, pointing it to the prepared synthetic data.
-
-### Step 5: Fine-tuning on Official Data
-
-Run the training script again, but this time load the checkpoint from the pre-training step and use the official dataset.
-
 
 ## Results
 

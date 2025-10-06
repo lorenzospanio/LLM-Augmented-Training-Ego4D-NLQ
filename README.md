@@ -44,6 +44,6 @@ The entire process is detailed in the Jupyter Notebook.
 
 ## Results
 
-This project successfully implements an end-to-end pipeline for augmenting video-language datasets. The primary outcome is the robust framework for synthetic data generation, which is modular and can be adapted for other models or datasets. The effectiveness of the pre-training is shown in the final validation metrics during the fine-tuning stage, a small but 
+This project successfully implements an end-to-end pipeline for augmenting video-language datasets. The primary outcome is the robust framework for synthetic data generation, which is modular and can be adapted for other models or datasets. The effectiveness of the pre-training is shown in the improved validation metrics after the fine-tuning stage.
 
 

@@ -39,7 +39,7 @@ The end-to-end pipeline can be visualized as follows:
 
 ## How to Run
 The entire process is detailed in the Jupyter Notebook.
-**Ego4D CLI Setup:** You need to sign the Ego4D license and obtain your access keys from the [official website](https://ego4ddataset.com/). Configure the CLI with your keys.
+**Ego4D CLI Setup:** You need to sign the Ego4D license and obtain your access keys from the official website to onfigure the CLI with your keys.
 
 
 ## Results
